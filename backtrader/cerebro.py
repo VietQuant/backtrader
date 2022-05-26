@@ -24,7 +24,8 @@ from __future__ import (absolute_import, division, print_function,
 import datetime
 import collections
 import itertools
-import multiprocessing
+# import multiprocessing
+import billiard as multiprocessing
 
 import backtrader as bt
 from .utils.py3 import (map, range, zip, with_metaclass, string_types,
